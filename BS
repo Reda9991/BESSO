@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+cd $HOME/BESSO
+while(true) do
+rm -fr ../.telegram-cli
+screen -S BESSO -X kill
+screen -S BESSO ./BESSO
+done
