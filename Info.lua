@@ -1,6 +1,6 @@
 do local Info = {
   SUDO = "SUDO:ID",
-  token = "token"
+  token = "token",
 }
 return Info
 end
