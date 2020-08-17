@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 cd $HOME/BESSO
-token="1000763983:AAHX6FeXn9ktiZWA__sjq1rJHQREQBcyC7M"
+token="token"
 while(true) do
 rm -fr ../.telegram-cli
 if [ ! -f ./tg ]; then
